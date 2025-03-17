@@ -1,0 +1,128 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "sayali kundkar",
+      "email": "sayali@tmail.com",
+      "password": "sayali@2803",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "Sam Raut",
+      "email": "samr@tmail.com",
+      "password": "sam123",
+      "role": "employee"
+    },
+    {
+      "id": "3",
+      "name": "Ishwari",
+      "email": "ish@tmail.com",
+      "password": "ish@1234",
+      "role": "employee"
+    },
+    {
+      "name": "Aki",
+      "email": "aki@tmail.com",
+      "password": "aki12345",
+      "role": "employee",
+      "id": "4"
+    }
+  ],
+  "scrums": [
+    {
+      "id": "1",
+      "name": "Scrum Team A"
+    },
+    {
+      "id": "2",
+      "name": "Scrum Team B"
+    },
+    {
+      "name": "Scrum Team C",
+      "id": "3"
+    },
+    {
+      "name": "Scrum Team D",
+      "id": "4"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Task One",
+      "description": "Description for Task One",
+      "status": "To Do",
+      "scrumId": 1,
+      "assignedTo": 2,
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2024-07-01"
+        },
+        {
+          "status": "In Progress",
+          "date": "2024-08-26"
+        },
+        {
+          "status": "Done",
+          "date": "2024-08-26"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-17"
+        },
+        {
+          "status": "To Do",
+          "date": "2025-03-17"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Task Two",
+      "description": "Description for Task Two",
+      "status": "In Progress",
+      "scrumId": 2,
+      "assignedTo": 4,
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2024-07-02"
+        },
+        {
+          "status": "In Progress",
+          "date": "2024-07-03"
+        }
+      ]
+    },
+    {
+      "title": "Task 3",
+      "description": "Description for Task 3",
+      "status": "In Progress",
+      "scrumId": 3,
+      "assignedTo": 3,
+      "history": [
+        {
+          "status": "In Progress",
+          "date": "2024-08-26"
+        }
+      ],
+      "id": "3"
+    },
+    {
+      "title": "Task 4",
+      "description": "Description for Task 4",
+      "status": "Done",
+      "scrumId": 4,
+      "assignedTo": 4,
+      "history": [
+        {
+          "status": "Done",
+          "date": "2025-03-13"
+        }
+      ],
+      "id": "4"
+    }
+  ]
+}
